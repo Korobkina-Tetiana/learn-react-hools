@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { HelloWorld } from './HelloWorld';
 import { Clicker } from './Chapter-1';
 import { FormExample } from './Chapter-2';
+import { Example } from './Chapter-3';
 
 const RED = '#F00';
 
@@ -12,6 +13,7 @@ root.render(
     <HelloWorld color={RED} />
     <Clicker />
     <FormExample />
+    <Example />
   </React.StrictMode>
 );
 
