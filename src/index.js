@@ -4,6 +4,7 @@ import { HelloWorld } from './HelloWorld';
 import { Clicker } from './Chapter-1';
 import { FormExample } from './Chapter-2';
 import { Example } from './Chapter-3';
+import { Estimation } from './Chapter-4'
 
 const RED = '#F00';
 
@@ -14,6 +15,7 @@ root.render(
     <Clicker />
     <FormExample />
     <Example />
+    <Estimation />
   </React.StrictMode>
 );
 
